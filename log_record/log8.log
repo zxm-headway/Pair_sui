@@ -1,0 +1,5 @@
+2024-10-13 13:56:55,771 - root - INFO - time: Sun Oct 13 13:56:55 2024
+2024-10-13 13:56:55,771 - root - INFO - Namespace(lr=0.001, save_log='./log_record/', save_model_path='../check_point/', batch_size=16, embedding_dim=256, filter_sizes=[2, 3, 4], cnn_size=32, gru_size=64, dropout=0.2, weight_decay=1e-06, epochs=100, class_num=5, patience=20, seed=2024)
+2024-10-13 13:56:56,052 - root - INFO - Epoch: 01
+2024-10-13 13:57:20,673 - root - INFO - Train Loss: 1.58796 | Train GP: 0.44224 | Train GR: 0.58009 | Train FS: 0.50187
+2024-10-13 13:57:29,900 - root - INFO - Val Loss: 1.57338 | Val GP: 0.39286 | Val GR: 0.33333 | Val FS: 0.36066

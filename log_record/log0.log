@@ -1,0 +1,2 @@
+2024-10-11 19:26:35,859 - root - INFO - time: Fri Oct 11 19:26:35 2024
+2024-10-11 19:26:35,859 - root - INFO - Namespace(lr=0.001, save_log='./log_record/', save_model_path='../check_point/', batch_size=16, embedding_dim=256, gru_size=64, dropout=0.2, weight_decay=1e-06, epochs=100, class_num=5, patience=20, seed=2024)

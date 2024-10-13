@@ -1,0 +1,63 @@
+2024-10-13 13:58:23,460 - root - INFO - time: Sun Oct 13 13:58:23 2024
+2024-10-13 13:58:23,461 - root - INFO - Namespace(lr=0.001, save_log='./log_record/', save_model_path='../check_point/', batch_size=16, embedding_dim=256, filter_sizes=[2, 3, 4], cnn_size=32, gru_size=64, dropout=0.2, weight_decay=1e-06, epochs=100, class_num=5, patience=20, seed=2024)
+2024-10-13 13:58:23,742 - root - INFO - Epoch: 01
+2024-10-13 13:58:48,165 - root - INFO - Train Loss: 1.58796 | Train GP: 0.44224 | Train GR: 0.58009 | Train FS: 0.50187
+2024-10-13 13:58:56,922 - root - INFO - Val Loss: 1.57338 | Val GP: 0.39286 | Val GR: 0.33333 | Val FS: 0.36066
+2024-10-13 13:59:05,480 - root - INFO -  Val GP: 0.46875 | Val GR: 0.45455 | Val FS: 0.46154
+2024-10-13 13:59:05,480 - root - INFO - Epoch: 02
+2024-10-13 13:59:29,745 - root - INFO - Train Loss: 1.57346 | Train GP: 0.45848 | Train GR: 0.50800 | Train FS: 0.48197
+2024-10-13 13:59:38,980 - root - INFO - Val Loss: 1.51595 | Val GP: 0.44737 | Val GR: 0.58621 | Val FS: 0.50746
+2024-10-13 13:59:47,846 - root - INFO -  Val GP: 0.44737 | Val GR: 0.58621 | Val FS: 0.50746
+2024-10-13 13:59:47,847 - root - INFO - Epoch: 03
+2024-10-13 14:00:37,481 - root - INFO - Train Loss: 1.56614 | Train GP: 0.45695 | Train GR: 0.58475 | Train FS: 0.51301
+2024-10-13 14:00:46,268 - root - INFO - Val Loss: 1.53104 | Val GP: 0.44737 | Val GR: 0.58621 | Val FS: 0.50746
+2024-10-13 14:00:55,334 - root - INFO -  Val GP: 0.46154 | Val GR: 0.62069 | Val FS: 0.52941
+2024-10-13 14:00:55,335 - root - INFO - Epoch: 04
+2024-10-13 14:01:19,937 - root - INFO - Train Loss: 1.55830 | Train GP: 0.49306 | Train GR: 0.55906 | Train FS: 0.52399
+2024-10-13 14:01:28,643 - root - INFO - Val Loss: 1.54877 | Val GP: 0.68966 | Val GR: 0.48780 | Val FS: 0.57143
+2024-10-13 14:01:37,692 - root - INFO -  Val GP: 0.56522 | Val GR: 0.32500 | Val FS: 0.41270
+2024-10-13 14:01:37,693 - root - INFO - Epoch: 05
+2024-10-13 14:02:03,745 - root - INFO - Train Loss: 1.55486 | Train GP: 0.57143 | Train GR: 0.47458 | Train FS: 0.51852
+2024-10-13 14:02:13,124 - root - INFO - Val Loss: 1.50705 | Val GP: 0.43243 | Val GR: 0.55172 | Val FS: 0.48485
+2024-10-13 14:02:22,112 - root - INFO -  Val GP: 0.44737 | Val GR: 0.58621 | Val FS: 0.50746
+2024-10-13 14:02:22,113 - root - INFO - Epoch: 06
+2024-10-13 14:02:46,918 - root - INFO - Train Loss: 1.53020 | Train GP: 0.57143 | Train GR: 0.57143 | Train FS: 0.57143
+2024-10-13 14:02:55,818 - root - INFO - Val Loss: 1.50231 | Val GP: 0.57143 | Val GR: 0.57143 | Val FS: 0.57143
+2024-10-13 14:03:04,360 - root - INFO -  Val GP: 0.52778 | Val GR: 0.57576 | Val FS: 0.55072
+2024-10-13 14:03:04,360 - root - INFO - Epoch: 07
+2024-10-13 14:03:42,257 - root - INFO - Train Loss: 1.49827 | Train GP: 0.64130 | Train GR: 0.58804 | Train FS: 0.61352
+2024-10-13 14:03:51,400 - root - INFO - Val Loss: 1.50263 | Val GP: 0.56250 | Val GR: 0.50000 | Val FS: 0.52941
+2024-10-13 14:03:59,977 - root - INFO -  Val GP: 0.54545 | Val GR: 0.51429 | Val FS: 0.52941
+2024-10-13 14:03:59,977 - root - INFO - Epoch: 08
+2024-10-13 14:04:25,984 - root - INFO - Train Loss: 1.47145 | Train GP: 0.72628 | Train GR: 0.61231 | Train FS: 0.66444
+2024-10-13 14:04:35,059 - root - INFO - Val Loss: 1.52471 | Val GP: 0.60714 | Val GR: 0.43590 | Val FS: 0.50746
+2024-10-13 14:04:43,744 - root - INFO -  Val GP: 0.53125 | Val GR: 0.48571 | Val FS: 0.50746
+2024-10-13 14:04:43,745 - root - INFO - Epoch: 09
+2024-10-13 14:05:07,466 - root - INFO - Train Loss: 1.46704 | Train GP: 0.70609 | Train GR: 0.61950 | Train FS: 0.65997
+2024-10-13 14:05:16,489 - root - INFO - Val Loss: 1.52221 | Val GP: 0.54839 | Val GR: 0.47222 | Val FS: 0.50746
+2024-10-13 14:05:25,644 - root - INFO -  Val GP: 0.54839 | Val GR: 0.47222 | Val FS: 0.50746
+2024-10-13 14:05:25,644 - root - INFO - Epoch: 10
+2024-10-13 14:05:50,535 - root - INFO - Train Loss: 1.44108 | Train GP: 0.77007 | Train GR: 0.62611 | Train FS: 0.69067
+2024-10-13 14:05:59,177 - root - INFO - Val Loss: 1.51331 | Val GP: 0.55172 | Val GR: 0.43243 | Val FS: 0.48485
+2024-10-13 14:06:07,925 - root - INFO -  Val GP: 0.51613 | Val GR: 0.45714 | Val FS: 0.48485
+2024-10-13 14:06:07,926 - root - INFO - Epoch: 11
+2024-10-13 14:06:21,010 - root - INFO - Train Loss: 1.42646 | Train GP: 0.82156 | Train GR: 0.62784 | Train FS: 0.71176
+2024-10-13 14:06:30,283 - root - INFO - Val Loss: 1.51529 | Val GP: 0.56667 | Val GR: 0.45946 | Val FS: 0.50746
+2024-10-13 14:06:39,144 - root - INFO -  Val GP: 0.54286 | Val GR: 0.55882 | Val FS: 0.55072
+2024-10-13 14:06:39,145 - root - INFO - Epoch: 12
+2024-10-13 14:07:05,353 - root - INFO - Train Loss: 1.40696 | Train GP: 0.82686 | Train GR: 0.66667 | Train FS: 0.73817
+2024-10-13 14:07:13,939 - root - INFO - Val Loss: 1.56854 | Val GP: 0.55172 | Val GR: 0.43243 | Val FS: 0.48485
+2024-10-13 14:07:22,689 - root - INFO -  Val GP: 0.51613 | Val GR: 0.45714 | Val FS: 0.48485
+2024-10-13 14:07:22,689 - root - INFO - Epoch: 13
+2024-10-13 14:10:51,143 - root - INFO - Train Loss: 1.42009 | Train GP: 0.80903 | Train GR: 0.67536 | Train FS: 0.73618
+2024-10-13 14:11:00,136 - root - INFO - Val Loss: 1.49149 | Val GP: 0.59375 | Val GR: 0.51351 | Val FS: 0.55072
+2024-10-13 14:11:08,908 - root - INFO -  Val GP: 0.54545 | Val GR: 0.51429 | Val FS: 0.52941
+2024-10-13 14:11:08,908 - root - INFO - Epoch: 14
+2024-10-13 14:14:26,992 - root - INFO - Train Loss: 1.38887 | Train GP: 0.85017 | Train GR: 0.68347 | Train FS: 0.75776
+2024-10-13 14:14:36,273 - root - INFO - Val Loss: 1.51735 | Val GP: 0.64286 | Val GR: 0.45000 | Val FS: 0.52941
+2024-10-13 14:14:44,853 - root - INFO -  Val GP: 0.58621 | Val GR: 0.44737 | Val FS: 0.50746
+2024-10-13 14:14:44,854 - root - INFO - Epoch: 15
+2024-10-13 14:18:07,984 - root - INFO - Train Loss: 1.38905 | Train GP: 0.83051 | Train GR: 0.70000 | Train FS: 0.75969
+2024-10-13 14:18:17,421 - root - INFO - Val Loss: 1.51938 | Val GP: 0.64286 | Val GR: 0.45000 | Val FS: 0.52941
+2024-10-13 14:18:26,643 - root - INFO -  Val GP: 0.51613 | Val GR: 0.45714 | Val FS: 0.48485
+2024-10-13 14:18:26,644 - root - INFO - Epoch: 16
